@@ -6,14 +6,17 @@ Tema: **DETECÇÃO DE DISCURSO DE ÓDIO UMA ABORDAGEM BASEADA EM APRENDIZADO PRO
 # Base de dados
 Utilizamos a rede social Twitter para montar a base de dados utilizada nessa pesquisa. Os dados são tuítes públicos no idioma Português-BR.
 
+- Base de dados não-processada [data/base80k.csv]
+
 # Dicionários
 Durante a pesquisa foram gerados alguns dicionários que auxiliaram nas tarefas de pré-processamento dos dados e na classificação desses em **hate** (presença de discurso de ódio), **not_hate** (livre de discurso de ódio), **badword** (presença de linguagem ofensiva) e **not_badword** (livre de linguagem ofensiva).
 
-- vogais_duplicadas.csv (Dicionário com palavras do português onde se tem vogais consecutivas)
-- internetes_list.csv (Pares de "internetês", versão contraída da palavra, e a versão correta da palavra)
-- stop_word_list.csv (Lista de stopwords)
-- badword_list.csv (Lista de palavras ofensivas)
-- odio_list.csv (Lista de palavras de ódio)
+- data/dicionarios/vogais_duplicadas.csv (Lista de palavras do Português onde se tem vogais consecutivas)
+- data/dicionarios/internetes_list.csv (Pares de "internetês", versão contraída da palavra, e a versão correta da palavra)
+- data/dicionarios/stop_word_list.csv (Lista de stopwords)
+- data/dicionarios/badword_list.csv (Lista de palavras e expressões ofensivas)
+- data/dicionarios/odio_list.csv (Lista de palavras e expressões de ódio)
+- data/dicionarios/estados_list.csv (Pares de siglas de alguns estados e o nome escrito por extenso)
 
 # Metodologia
 
