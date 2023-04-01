@@ -29,7 +29,7 @@ Deep learning networks used in this research
 - Convolutional Neural Network (CNN) [Treinamento_CNN.ipynb]
 - Bidirectional LSTM (Bi-LSTM) [Treinamento_BiLSTM.ipynb]
 
-# Research baselines
+Research baselines
 
 - Multinomial Naive Bayes [Treinamento_NaiveBayes.ipynb]
 - Shallow Neural Networks (SNN) [Treinamento_ShallowNet.ipynb]
